@@ -53,7 +53,7 @@ let package = Package(
             name: "SwiftUIWindowBinder",
 
             dependencies: [])
-]
+
 =======
 
     name: "ios-app-helloworld-swiftui",
@@ -75,10 +75,10 @@ let package = Package(
            path: "ios-app-helloworld-swiftui"), //path for target to look for sources
 
         
-]
+
 >>>>>>> 6dbc8e1ec62883eb2025b1ab5998ef6d20b7fdbf
 
-    
+    ]
 
 )
         
