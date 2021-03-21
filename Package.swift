@@ -15,7 +15,7 @@ let package = Package(
 <<<<<<< HEAD
 
     name: "SwiftUIWindowBinder",
-
+    defaultLocalization: "en",
     
 
     platforms: [
