@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import HelloWorld
+@testable import SwiftUIWindowBinder
 
 class SwiftUIWindowBinder: XCTestCase {
 
