@@ -17,11 +17,7 @@ jobs:
     - name: Run tests
       run: swift test -v
 
-    - name: Checkout
-      uses: actions/checkout@v1
-    - name: Bundle Install 
-      run: bundle exec pod install 
-
+   
 test:
     runs-on: macOS-latest
     steps:
