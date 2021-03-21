@@ -11,7 +11,7 @@ let package = Package(
     targets: [
         .target(
            name: "SwiftUIWindowBinder",
-           path: "SwiftUIWindowBinder"), //path for target to look for sources
+           path: "Sources"), //path for target to look for sources
         
     ]
 )
