@@ -19,7 +19,7 @@ let package = Package(
     products: [
         .library(
             name: "SwiftUIWindowBinder",
-            targets: ["SwiftUIWindowBinder"]),
+            path: "SwiftUIWindowBinder"),
     ],
     
     dependencies: [ ],
