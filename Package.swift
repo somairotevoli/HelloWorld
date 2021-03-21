@@ -14,6 +14,9 @@ let package = Package(
         .target(
            name: "SwiftUIWindowBinder",
            path: "Sources"), //path for target to look for sources
-        
+        .testTarget(
+            name: "HelloWorldTests",
+            dependencies: ["HelloWorld"],
+            path: "HelloWorldTests")
     ]
 )
