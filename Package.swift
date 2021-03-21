@@ -5,7 +5,9 @@ let package = Package(
     name: "HelloWorld",
     defaultLocalization: "en",
     platforms: [
-        .macOS(.v10_14),
+        .iOS(.v13),
+        .macOS(.v10_15),
+        .tvOS(.v13),
     ],
 
     targets: [
